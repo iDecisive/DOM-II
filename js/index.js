@@ -90,7 +90,7 @@ document.querySelector(".text-content").addEventListener("select", select1); //e
 let dblClick = event => {
 
     event.target.style.fontSize = "30px";
-    gsap.to(event.target, {rotation: 27, x: 100, duration: 1});
+    gsap.to(event.target, {rotation: -90, y: -135, x: -128, duration: 0.4});
 
 }
 
